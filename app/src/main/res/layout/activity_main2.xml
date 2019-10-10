@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="160.0dip"
+            android:layout_marginTop="3.0dip"
+            android:orientation="horizontal">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/pune"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/pune_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/mumbai"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/mumbai_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip"
+                    android:orientation="vertical" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="160.0dip"
+            android:orientation="horizontal">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/delhi"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/delhi_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/blore"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/blore_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip"
+                    android:orientation="vertical" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="160.0dip"
+            android:orientation="horizontal">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/kolkata"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/kolkata_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chennai"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/chennai_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip"
+                    android:orientation="vertical" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="160.0dip"
+            android:orientation="horizontal">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hyderabad"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/hyderabad_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/jaipur"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/jaipur_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip"
+                    android:orientation="vertical" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="160.0dip"
+            android:layout_marginTop="3.0dip"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/goa"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+
+                <RelativeLayout
+                    android:id="@+id/goa_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/kerala"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:foreground="?android:selectableItemBackground"
+                android:onClick="startAd"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0.0dip">
+
+                <RelativeLayout
+                    android:id="@+id/kerala_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5.0dip"
+                    android:orientation="vertical" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1315104419551050/1819125896"></com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</ScrollView>
